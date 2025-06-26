@@ -1,0 +1,436 @@
+*{
+  margin:0;
+  font-family:Arial;
+  border:border-box;
+}
+
+/** navbar **/
+.navbar{
+  height:60px;
+  background-color:#000000e7;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+/** box-1 **/
+.nav-logo{
+  height:40px;
+  width:106px;
+}
+
+.logo{
+  background-image:url("logo.jpeg");
+  background-size:cover;
+  height:36px;
+  width:106%
+}
+
+.border{
+  border:2px solid transparent;
+}
+
+.border:hover{
+  border:1.5px solid white;
+}
+
+/**box-2**/
+.add-first{
+  color:#cccc;
+  font-size:0.95rem;
+  margin-left:15px;
+
+}
+
+.add-sec{
+  font-size:1rem;
+  margin-left:5px;
+}
+
+.add-icon{
+  display:flex;
+  align-items:center;
+  margin-left:11px;
+}
+
+/** box-3**/
+.nav-search{
+  display:flex;
+  background-color:red;
+  height:30px;
+  width:350px;
+  border-radius:4px;
+}
+
+.search-select{
+  background-color:#f3f3f3;
+  width:45px;
+  text-align:center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius:4px;
+  border:none;
+}
+
+.search-input{
+  width:900px;
+  font-size:1rem;
+  border:none;
+}
+
+.search-icon{
+  width:90px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:1.2rem;
+  background-color:#ffff0096;
+  border-top-right-radius:4px;
+  border-bottom-right-radius:4px;
+  color:#000000e7;
+}
+
+.nav-search:hover{
+  border:2px solid orange;
+}
+
+/** box-4 **/
+span{
+  font-size:0.8rem;
+}
+ 
+.sign-sec{
+  font-size: 1rem;
+  font-weight:700;
+}
+
+/** box-5**/
+
+.order-sec{
+  font-weight:700;
+}
+
+/** box-6 **/
+.nav-cart i{
+  font-size:30px;
+}
+
+.nav-cart{
+  font-size:1rem;
+  font-weight:700;
+}
+
+/** panel **/
+.panel{
+  height:40px;
+  background-color:#222f3d;
+  display:flex;
+  color:white;
+  align-items:center;
+  justify-content:space-evenly;
+}
+
+.panel-all {
+  display: flex;
+  gap:.3rem;
+  margin-left:15px;
+}
+.panel-option p{
+  display:inline;
+  margin-left:35px;
+}
+
+.panel-option{
+   width:100%;
+   font-size:0.88rem;
+}
+
+.panel-deals{
+  font-size:1rem;
+  font-weight:700;
+  font-weight:bold;
+  margin-right:30px;
+}
+/** hero-section**/
+.hero-section{
+  background-image:url("sale.jpg");
+  background-size:cover;
+  height:400px;
+}
+
+ /** first row **/
+/** shop-section**/
+.shop-section{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  background-color:#e2e7e6;
+}
+ 
+ .box{
+  /**border:2px solid black;**/
+  height:400px;
+  width:23%;
+  background-color:white;
+  padding:20px 0px 15px;
+ }
+/** img-1**/
+ .box-img1{
+  background-image:url("brand.jpg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+ }
+
+ .box-content{
+  margin-right:0.8rem;
+  margin-left:1rem;
+ }
+
+ .box-content p{
+  color:blue;
+ }
+
+ /** img-2**/
+ .box-img2{
+  background-image:url("bike.jpg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+ }
+   
+ /** img-3 **/
+ .box-img3{
+  background-image:url("electronics.jpg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+ }
+
+ /** img-4 **/
+.box-img4{
+  background-image:url("wash.jpeg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+}
+ /*second-row **/
+.shop-section2{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  background-color:#e2e7e6;
+}
+
+.sec-box{
+  /**border:2px solid black;**/
+  height:400px;
+  width:23%;
+  background-color:white;
+  padding:20px 0px 15px;
+  margin-top:18px;
+ }
+
+ /** img-5**/
+ .box-img5{
+  background-image:url("ethnicwear.jpg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+}
+
+.box-content1{
+  margin-right:0.8rem;
+  margin-left:1rem;
+ }
+
+ .box-content1 p{
+  color:#0000ffd2;
+ }
+
+ /** img-6 **/
+ .box-img6{
+  background-image:url("shoes.jpeg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+}
+
+/** img-7 **/
+.box-img7{
+  background-image:url("makeup.jpeg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+}
+
+/** img-8 **/
+.box-img8{
+  background-image:url("kids.jpg");
+  background-size:cover;
+  height:300px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+}
+ 
+.shop-section3{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  background-color:#e2e7e6;
+}
+
+.third-box{
+  /**border:2px solid black;**/
+  height:550px;
+  width:47%;
+  background-color:white;
+  padding:20px 0px 15px;
+  margin-top:18px;
+ }
+
+ /** img-9 **/
+ .box-img9{
+  background-image:url("grocery.jpg");
+  background-size:cover;
+  height:480px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+}
+
+.box-content2{
+  margin-right:0.8rem;
+  margin-left:1rem;
+ }
+
+ .box-content2 p{
+  color:#ff0000d0;
+ }
+/** img-10**/
+ .box-img10{
+  background-image:url("dryfruit.jpg");
+  background-size:cover;
+  height:480px;
+  margin-top:0.7rem;
+  margin-bottom:1rem;
+}
+
+/** footer**/
+footer{
+  margin-top:5px;
+}
+.foot-panel1{
+  background-color:#37475a;
+  color:white;
+  height:50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.foot-panel2{
+  background-color:#222f3d;
+  color:white;
+  height:400px;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+ul{
+  margin-top:30px;
+}
+
+ul a{
+  display:block;
+  font-size:0.85rem;
+  margin-top:15px;
+  color:#dddd;
+}
+
+ul p{
+  font-weight:700;
+}
+
+.foot-panel3{
+  background-color:#222f3d;
+  border-top:0.5px solid white;
+  height:120px;
+  display:flex;
+  align-items: center;
+}
+
+.lan-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-left:600px;
+  color:#cccc;
+}
+
+.lang{
+  color:white;
+  margin-left:7px;
+}
+
+.location-icon{
+  display:flex;
+  align-items:center;
+  margin-left:70px;
+  color:#cccc;
+}
+
+.location{
+  color:white;
+  margin-left:7px;
+}
+
+.foot-panel4{
+  background-color:#222f3df3;
+  color:white;
+  height:170px;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+ul{
+  margin-top:25px;
+}
+
+ul a{
+  display:block;
+  font-size:0.85rem;
+  color:#dddd;
+}
+
+ul p{
+  font-weight:500;
+}
+
+.foot-panel5{
+  background-color:#000000e7;
+  color:white;
+  height:50px;
+}
+
+.pages{
+  padding:10px;
+  text-align:center;
+  font-size:0.9rem;
+}
+
+.pages a{
+  margin-left:7px;
+}
+
+.copyright{
+  padding:5px;
+  text-align:center;
+  font-size:0.85rem;
+}
